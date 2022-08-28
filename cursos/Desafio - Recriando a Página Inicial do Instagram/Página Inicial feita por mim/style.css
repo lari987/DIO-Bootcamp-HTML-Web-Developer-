@@ -1,0 +1,102 @@
+body{
+    background-image: url('images/instagram-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 0%;
+    padding-top: 5%;
+    color: aliceblue;
+   
+}
+.caixa-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color:  rgba(0,0,0, 0.66);
+    font-family: Arial;
+    width: 30%;
+    padding: 30px;
+    border-radius: 50px 10px 50px 10px;
+    box-shadow: 0 30px 30px #141414;
+}
+
+.icone img{
+    margin-top: -100px;
+}
+
+.logo img{
+    margin-top: 30px;
+}
+
+.caixa-login .campo{
+    margin-top: 10px;
+    
+    position: relative;
+}
+
+.caixa-login .campo input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    background: transparent;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.caixa-login .campo label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    font-family: arial;
+    pointer-events: none;
+    transition: .5s;
+    color: #ffffff;
+}
+
+.caixa-login .campo input:focus~label{
+    top: -20px;
+    left: 0;
+}
+
+.cadastro{
+    padding-top: 7px;
+    color: aliceblue;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.button{
+    margin-bottom: 20px;
+    padding: 12px;
+    width: 100%;
+    background: linear-gradient(to right, #4b27eb, #eb7a80, rgb(255, 206, 102));
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.caixa-login p{
+    text-align: center;
+}
+.caixa-login a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #fc77aec2;
+}
+
