@@ -1,0 +1,20 @@
+
+.quemsomos{
+    background-color:#1F618D ;
+    color:aliceblue;
+}
+
+.margin{
+    padding-top: 50px; /*estende seu componente*/ 
+    padding-bottom: 50px;
+}
+
+.parceiros{
+    background-color: #0f486e ;
+    color: aliceblue;
+}
+
+.bg-footer{
+    background-color: #0f486e;
+    color:aliceblue
+}
