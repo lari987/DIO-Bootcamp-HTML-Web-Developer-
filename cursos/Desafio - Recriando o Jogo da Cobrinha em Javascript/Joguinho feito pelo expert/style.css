@@ -1,0 +1,17 @@
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#0B5345;
+}
+canvas{
+    border-radius: 50px;
+}
+
+img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
